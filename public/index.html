@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Signin</title>
+
+    <meta name="google-signin-client_id" content="1023916028923-mnn067lcjn3itrr0lo8oj1s07kddgrcj.apps.googleusercontent.com">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body class="container">
+
+
+    <div class="row mt-5">
+        <div class="col-sm-6">
+            <h1>Google Signin</h1>
+            <hr>
+            <br>
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+            <br>
+            <a href="#" onclick="signOut();">Sign out</a>
+        </div>
+
+        <div class="col-sm-6">
+            <h1>Login manual</h1>
+            <hr>
+
+            <form class="d-grid">
+                <input type="text" name="correo" class="form-control mb-2" placeholder="Correo" />
+                <input type="text" name="password" class="form-control mb-2" placeholder="Password" />
+    
+                <button type="submit" class="btn btn-primary">
+                    Ingresar
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    
+
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="./js/auth.js"></script>
+
+</body>
+</html>

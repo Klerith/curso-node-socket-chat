@@ -1,0 +1,26 @@
+{
+  "name": "07-restserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.9.2",
+    "google-auth-library": "^6.1.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
+    "socket.io": "^3.1.1",
+    "uuid": "^8.3.2"
+  }
+}
